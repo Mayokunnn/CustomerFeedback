@@ -285,7 +285,9 @@ input[data-autocompleted] {
   cursor: pointer;
   color: #000;
   font-family: "Roboto", sans-serif;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px -7px rgba(126, 126, 126, 0.75);
+  -webkit-box-shadow: 10px 10px 10px -7px rgba(167, 163, 163, 0.75);
+  -moz-box-shadow: 10px 10px 10px -7px rgba(149, 147, 147, 0.75);
 }
 
 .card::before,

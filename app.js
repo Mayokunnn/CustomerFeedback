@@ -21,7 +21,6 @@ app.get("/", (req, res) => {
 mongoose.connect(
   "mongodb+srv://kareola960:1234@cluster0.9jieh8n.mongodb.net/?retryWrites=true&w=majority",
   {
-    useNewUrlParser: true,
     tls: true,
   }
 );
