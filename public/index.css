@@ -279,12 +279,13 @@ input[data-autocompleted] {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 15px;
   cursor: pointer;
   color: #000;
   font-family: "Roboto", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card::before,
@@ -298,7 +299,7 @@ input[data-autocompleted] {
   justify-content: center;
   text-align: center;
   font-size: 25px;
-  font-weight: bold;
+
   background-color: lightblue;
   transition: all 0.5s;
 }
@@ -326,4 +327,5 @@ input[data-autocompleted] {
 .card:hover:after {
   content: attr(data-content);
   color: #000;
+  font-style: italic;
 }
