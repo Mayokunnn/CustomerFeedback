@@ -36,7 +36,7 @@
                 card.innerHTML = `
                         <h3>${feedback.name}</h3>
                     `;
-                card.dataset.content = `${feedback.message}`;
+                card.dataset.content = `"${feedback.message}"`;
                 feedbackContainer.appendChild(card);
             });
         })
