@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url("./bg-project-alt.jpg");
+  background: rgb(16, 16, 16) url("./bg-project-alt.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
